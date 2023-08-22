@@ -255,6 +255,7 @@ label {
     flex-direction: column;
     gap: 10px;
     margin: auto;
+
 }
 
 form input,
@@ -267,17 +268,12 @@ textarea {
 
 }
 
-.btn-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn-2 button {
+#contact-me button {
     background-color: #f4c39b;
     font-size: large;
     padding: 7px 30px;
     color: white;
+    width: max-content;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -285,7 +281,7 @@ textarea {
     border: 1px solid #df8b47;
 }
 
-.btn-2 button:hover {
+#contact-me button button:hover {
     background-color: white;
     border: 1px solid gray;
 }
